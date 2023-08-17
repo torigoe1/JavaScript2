@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+ <div>
+    <input type="text" id="result" value="0" readonly> 
+ </div>
+ 
+ <div class="number">
+    <button onclick="add(this.innerHTML)" >7</button>
+    <button onclick="add(this.innerHTML)" >8</button>
+    <button onclick="add(this.innerHTML)" >9</button>
+    <button onclick="calc(this.innerHTML)">+</button>
+ </div>
+ <div class="number">
+    <button onclick="add(this.innerHTML)">4</button>
+    <button onclick="add(this.innerHTML)">5</button>
+    <button onclick="add(this.innerHTML)">6</button>
+    <button onclick="calc(this.innerHTML)">-</button>
+ </div>
+ <div class="number">
+    <button onclick="add(this.innerHTML)">1</button>
+    <button onclick="add(this.innerHTML)">2</button>
+    <button onclick="add(this.innerHTML)">3</button>
+    <button onclick="calc(this.innerHTML)">*</button>
+ </div>
+ <div class="number">
+    <button onclick="add(this.innerHTML)">0</button>
+    <button onclick="add(this.innerHTML)">00</button>
+    <button onclick="period(this.innerHTML)">.</button>
+    <button onclick="calc(this.innerHTML)">/</button>
+ </div>
+ <div class="other">
+    <button onclick="zero()">AC</button>
+    <button onclick="equal()">=</button>
+ </div>
+ 
+ <script src="main.js"></script>
+ </body>

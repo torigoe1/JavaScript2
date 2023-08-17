@@ -1,0 +1,32 @@
+body {
+    background-color:#FFFFFF;
+}
+
+button {
+    background-color:#EEEEEE;
+    width:20%;
+    border:1px solid black;
+    border-radius:3px;
+    font-weight:600;
+    text-align:center;
+}
+
+.active{
+    border-color:#0000FF;
+}
+
+#result {
+    color:#FFFFFF;
+    background-color:#000000;
+    text-align:right;
+    font-size:16px;
+    width:245px;
+}
+
+.number {
+    width:300px;
+}
+
+.other {
+    width:620px;
+}
